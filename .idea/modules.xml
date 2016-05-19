@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/scala-basic/scala-basic.iml" filepath="$PROJECT_DIR$/scala-basic/scala-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-hdfs/spark-hdfs.iml" filepath="$PROJECT_DIR$/spark-hdfs/spark-hdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-startup.iml" filepath="$PROJECT_DIR$/spark-startup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-streaming/spark-streaming.iml" filepath="$PROJECT_DIR$/spark-streaming/spark-streaming.iml" />
     </modules>
   </component>
 </project>

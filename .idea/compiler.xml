@@ -22,12 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="scala-basic" />
         <module name="spark-hdfs" />
+        <module name="spark-streaming" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="scala-basic" target="1.5" />
       <module name="spark-hdfs" target="1.5" />
       <module name="spark-startup" target="1.5" />
+      <module name="spark-streaming" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

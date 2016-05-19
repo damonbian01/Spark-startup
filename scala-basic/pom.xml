@@ -2,18 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>spark-startup</artifactId>
+        <groupId>com.cstnet.cnnic</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.cstnet.cnnic</groupId>
-    <artifactId>spark-startup</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>spark-hdfs</module>
-        <module>scala-basic</module>
-        <module>spark-streaming</module>
-    </modules>
-
+    <artifactId>scala-basic</artifactId>
     <properties>
         <scala.version>2.10.4</scala.version>
         <scala.tools>2.15.2</scala.tools>
